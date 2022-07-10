@@ -2,7 +2,7 @@
 
 namespace Stores.DAL
 {
-    public interface IDapperGenericRepository
+    public interface IDapperGenericRepository:IDisposable
     {
         Task<List<T>> Query<T>(string query, object parameters = null);
         List<T> QueryNonAsync<T>(string query, object parameters = null);

@@ -17,6 +17,10 @@ namespace Stores.DAL
         {
             _dbConnection = dbConnection;   
         }
+        public void Dispose()
+        {
+            _dbConnection.Close();
+        }
         public async Task<List<T>> Query<T>(string query, object parameters = null)
         {
             var result = await _dbConnection.QueryAsync<T>(query, parameters);
