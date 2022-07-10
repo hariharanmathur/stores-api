@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Stores.API/bin/Debug/net6.0
+/.vs/Stores.API
+/Stores.Contract/bin/Debug/net6.0
+/Stores.DAL/bin/Debug/net6.0
+/Stores.DAL/obj
+/Stores.Helpers/bin/Debug/net6.0
+/Stores.Helpers/obj
+/Stores.Models/bin/Debug/net6.0
+/Stores.Models/obj
